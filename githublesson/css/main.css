@@ -1,0 +1,38 @@
+.header {
+  font-style: normal;
+  font-size: 15;
+  color: #ff0000;
+  line-height: 1.5;
+}
+.section {
+  font-style: normal;
+  font-size: 15;
+  color: #ff0000;
+  line-height: 1.5;
+}
+.lok {
+  background: #ff0000;
+}
+.lok:hover {
+  color: black;
+}
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 35px;
+}
+.menu li {
+  margin-right: 25px;
+  display: block;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.menu li:hover {
+  color: #006666;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.menu:hover {
+  color: red;
+}

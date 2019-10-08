@@ -1,0 +1,266 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin:0; 
+
+}
+
+body {
+	font-size: 22px;
+	font-family:font-family: 'Mukta', sans-serif;
+
+	color: #494949;
+}
+
+a {
+	color: #494949;
+	text-decoration: none;
+	padding: 0;
+	margin:0;
+
+}
+
+a:hover {
+	text-decoration: none;
+	color:#006666;
+}
+
+ul, li {
+	display:block;
+	padding: 0;
+	margin:0;
+}
+
+
+
+.menu {
+	display:flex;
+	font-size: 35px;
+	
+}
+
+
+.menu li {
+	margin-right: 25px;
+	display: block;
+	transition:all 0.2s;
+
+}
+
+.menu li:hover {
+	color:#006666;
+	transform: scale(1.2);
+}
+
+
+.header {
+	margin-top: 45px;
+	margin-bottom: 45px;
+	text-align: center;
+	
+}
+
+
+.header img {
+	position: relative;
+	bottom: 3px;
+	right: 2px;
+}
+
+
+
+.sidebar  {
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: white;
+	position: relative;
+}
+ 
+.logos {
+	position: relative;
+} 
+
+.logo {
+	position:absolute;
+	left:-20%;
+	top: -6%;
+}
+
+
+
+.side {
+	padding-top: 100px;
+	height: 700px;
+}
+
+.hand {
+	position: absolute;
+	left:-42%;
+	top: 85px;
+	z-index: 1;
+	
+}
+
+.button {
+	border:1px solid white;
+	border-radius: 30px;
+	padding: 5px 15px;
+	transition: all 0.2s;
+	color:white;
+}
+
+.button:hover {
+	font-size: 25px;
+	box-shadow: 2px 2px 2px white;
+}
+
+.futmenu {
+ padding:100px 100px 100px 10px;
+}
+
+.futures {
+	margin-top: 100px;
+}
+
+.productFuture {
+	background-color: #E7FFEF;
+	padding: 100px 100px;
+}
+
+.dubl {
+	position: relative;
+}
+
+.gif {
+	position: relative;
+}
+
+.putin {
+	position: absolute;
+	right: 25%;
+	top: 32%;
+
+}
+
+.buttongray{
+	border:1px solid #494949;
+	border-radius: 30px;
+	padding: 5px 15px;
+	transition: all 0.2s;
+	
+}
+
+.buttongray:hover {
+	font-size: 25px;
+	box-shadow: 2px 2px 2px #66cc99;
+	
+}
+
+.productFuture img {
+	padding-left: 100px;
+}
+
+.productFuture h1 {
+	color: #66cc99;
+}
+
+.gallary {
+		padding:100px 0;
+	
+}
+ 
+.gallary img {
+	transition:all 0.2s;
+}
+
+.gallary img:hover {
+	transform: scale(1.1);
+}
+
+.mini{
+	position: absolute;
+	right: 15%;
+	transform: scale(0.9);
+}
+
+.footer {
+	padding: 100px 100px;
+}
+
+.latter {
+	background: #F1F1FD;
+	padding: 50px 0;
+
+}
+
+.lat {
+	position: relative;
+}
+
+.latter img {
+	position: absolute;
+	left:25%;
+	bottom:2%;
+	
+}
+
+
+.latter p {
+	border:5px solid white;
+	border-radius: 40px;
+	padding:10px 20px;
+}
+
+
+.latter span {
+	color: #66cc99;
+	border: 2px solid #66cc99;
+	border-radius: 40px;
+	padding:10px 20px;
+}
+
+.latter span:hover {
+	box-shadow: 2px 2px 2px #66cc99;
+}
+
+.row input,button{
+	background:none;
+	border:none;
+}	
+.form {
+	background:white;
+	border:2px solid #66cc99;;
+	border-radius: 20px;
+	padding: 0 10px;
+}
+.row button {
+	background:#66cc99;
+	border:2px solid #66cc99;
+	border-radius: 20px;
+	padding: 2px 8px;
+	outline: none;
+	opacity:0.7;
+}
+
+.row button:hover {
+	opacity:1;
+}
+.row button:active {
+	transform: scale(1.2);
+}
+
+.row input {
+	color:#66cc99;
+	font-weight: 900;
+	margin:0;
+	padding: 0;
+	outline: none;
+
+
+}
+
+::placeholder {
+	color:#66cc99;
+}
